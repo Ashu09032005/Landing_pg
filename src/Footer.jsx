@@ -2,7 +2,7 @@ import { CiYoutube } from "react-icons/ci";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { TbBrandDiscord } from "react-icons/tb";
-import Logo from "./Logo.png";
+import Logo from "../src/assets/JuridentLogo.png";
 
 export default function Footer() {
     return (
@@ -11,7 +11,7 @@ export default function Footer() {
 
                 {/* Left-aligned Logo & Address */}
                 <div className="w-1/4 min-w-[220px]">
-                    <img src={Logo} alt="Valsco Tech Logo" className="w-[120px] h-[100px]" />
+                    <img src={Logo} alt="Valsco Tech Logo" className="w-[120px] h-[50px]" />
                     <p className="mt-2 text-gray-400">Valsco Technology</p>
                     <p className="text-gray-400">J-3 Shatabdi Enclave</p>
                     <p className="text-gray-400">Noida-201301, Uttar Pradesh</p>
