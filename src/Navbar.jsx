@@ -45,7 +45,9 @@ export default function Navbar() {
                             <button className="bg-black text-white w-full px-4 py-2 rounded-xl font-semibold hover:opacity-80">Explore Jurident</button>
                         </li>
                         <li className="hover:text-yellow-600 cursor-pointer">
-                            <button className="border border-yellow-600 text-yellow-600 w-full px-4 py-2 rounded-xl font-semibold hover:bg-yellow-600 hover:text-white">Book a Demo</button>
+                            <button className="relative px-6 py-3 text-black font-semibold rounded-full bg-white border-2 border-transparent before:absolute before:inset-0 before:rounded-full before:p-[2px] before:bg-gradient-to-r before:from-blue-900 before:to-yellow-500 before:-z-10 before:mask before:mask-inset shadow-md hover:scale-105 transition-transform">
+                                Book a Demo
+                            </button>
                         </li>
                     </ul>
                 </div>

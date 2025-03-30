@@ -5,7 +5,7 @@ export default function HeroSection() {
         <section className="w-full max-w-full mx-auto flex flex-col lg:flex-row items-center justify-between px-6 lg:px-[195px] py-[80px] pb-[200px] bg-white min-h-[650px]">
 
             {/* Left Content */}
-            <div className="max-w-lg ml-0 lg:ml-[40px] text-center lg:text-left">
+            <div className="max-w-lg ml-0 lg:ml-[70px] text-center lg:text-left">
                 <h1 className="text-3xl lg:text-5xl font-bold leading-tight text-black">
                     The Smartest Way To Manage Your Legal Practice.
                 </h1>
@@ -19,7 +19,7 @@ export default function HeroSection() {
 
             {/* Right Image */}
             <div className="relative mt-8 lg:mt-0 lg:absolute lg:ml-[350px]">
-                <img src={image} alt="Laptop" className="w-full max-w-[500px] mx-auto lg:ml-[400px]" />
+                <img src={image} alt="Laptop" className="w-full max-w-[550px] mx-auto lg:ml-[450px]" />
             </div>
 
         </section>
